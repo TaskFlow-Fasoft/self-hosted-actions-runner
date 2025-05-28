@@ -19,8 +19,8 @@ RUN mkdir actions-runner && cd actions-runner && \
     echo "e8e24a3477da17040b4d6fa6d34c6ecb9a2879e800aa532518ec21e49e21d7b4  actions-runner-linux-x64-2.324.0.tar.gz" | shasum -a 256 -c && \
     tar xzf ./actions-runner-linux-x64-2.324.0.tar.gz
 
-ENV GH_URL="https://github.com/TaskFlow-Fasoft" \
-    RUNNER_TOKEN="AV77POPVY5UHJFMVHWQTZ43IFUIYU" \
+ENV GH_URL="https://github.com/TaskFlow-Fasoft/taskflow-backend" \
+    RUNNER_TOKEN="AV77POOAMSOCV2AZINNEI43IG6QEQ" \
     RUNNER_NAME="self-hosted-runner" \
     RUNNER_LABELS="self-hosted-runner" \
     RUNNER_ALLOW_RUNASROOT="1"
